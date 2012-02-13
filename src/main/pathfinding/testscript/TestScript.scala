@@ -1,7 +1,6 @@
-package pathfinding.test
+package pathfinding.testscript
 
 import tester.criteria.{TestCriteriaValueTuple, TestCriteriaRangeTuple, TestRunningnessFlag}
-
 
 /**
  * Created by IntelliJ IDEA.

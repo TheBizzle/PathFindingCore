@@ -1,7 +1,6 @@
-package pathfinding.pathingmap.test
+package pathfinding.pathingmap
 
 import org.scalatest.{GivenWhenThen, FlatSpec}
-import pathfinding.pathingmap.PathingMap
 import pathfinding.pathingmap.pathingmapdata.PathingMapString
 import pathfinding.coordinate.Coordinate
 import pathfinding.pathingmap.terrain._

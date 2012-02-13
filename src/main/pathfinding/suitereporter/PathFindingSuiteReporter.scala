@@ -1,6 +1,6 @@
-package pathfinding.test.suitereporter
+package pathfinding.suitereporter
 
-import tester.test.suitereporter.SuiteReporter
+import tester.suitereporter.SuiteReporter
 
 /**
  * Created by IntelliJ IDEA.
