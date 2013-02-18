@@ -1,4 +1,4 @@
-package pathfinding.pathingmap
+package org.bizzle.pathfinding.pathingmap
 
 /**
  * Created by IntelliJ IDEA.

@@ -1,7 +1,7 @@
-package pathfinding
+package org.bizzle.pathfinding
 
 import
-  tester.{ criteria, Tester },
+  org.bizzle.tester.{ criteria, Tester },
     criteria.TestCriteria
 
 /**

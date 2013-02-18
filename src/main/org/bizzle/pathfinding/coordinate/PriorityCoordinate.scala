@@ -1,4 +1,4 @@
-package pathfinding.coordinate
+package org.bizzle.pathfinding.coordinate
 
 /**
  * Created by IntelliJ IDEA.

@@ -1,7 +1,7 @@
-package pathfinding.pathingmap
+package org.bizzle.pathfinding.pathingmap
 
 import
-  datastructure.mutable.BiHashMap
+  org.bizzle.datastructure.mutable.BiHashMap
 
 /**
  * Created by IntelliJ IDEA.

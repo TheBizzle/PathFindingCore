@@ -1,10 +1,10 @@
-package pathfinding.pathingmap
+package org.bizzle.pathfinding.pathingmap
 
 import
   scala.collection.mutable.ListBuffer
 
 import
-  pathfinding.coordinate.{ Coordinate, Coordinate2D }
+  org.bizzle.pathfinding.coordinate.{ Coordinate, Coordinate2D }
 
 /**
  * Created by IntelliJ IDEA.

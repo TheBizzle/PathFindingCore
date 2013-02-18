@@ -1,10 +1,10 @@
-package pathfinding
+package org.bizzle.pathfinding
 
 import
   java.lang.reflect.Field
 
 import
-  tester.{ cluster, criteria, MysteriousDataException },
+  org.bizzle.tester.{ cluster, criteria, MysteriousDataException },
     cluster.{ TestAnalysisFlagBundle, TestAnalysisResultBundle, TestAnalyzer, TestCluster },
     criteria.{ Talkative, TestToggleFlag }
 

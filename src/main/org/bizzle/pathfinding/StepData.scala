@@ -1,4 +1,4 @@
-package pathfinding
+package org.bizzle.pathfinding
 
 import
   coordinate.{ BadCoordinate2D, Coordinate2D },

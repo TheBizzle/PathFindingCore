@@ -1,13 +1,13 @@
-package pathfinding.pathingmap
+package org.bizzle.pathfinding.pathingmap
 
 import
   scala.collection.mutable.ListBuffer
 
 import
-  tester.cluster.TestSubject
+  org.bizzle.tester.cluster.TestSubject
 
 import
-  pathfinding.coordinate.{ Coordinate, Coordinate2D }
+  org.bizzle.pathfinding.coordinate.{ Coordinate, Coordinate2D }
 
 import
   Direction._,

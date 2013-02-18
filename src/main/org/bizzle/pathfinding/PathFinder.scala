@@ -1,7 +1,7 @@
-package pathfinding
+package org.bizzle.pathfinding
 
 import
-  tester.cluster.Testable
+  org.bizzle.tester.cluster.Testable
 
 import
   pathingmap.PathingMapString

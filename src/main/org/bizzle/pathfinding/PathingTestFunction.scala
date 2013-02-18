@@ -1,7 +1,7 @@
-package pathfinding
+package org.bizzle.pathfinding
 
 import
-  tester.cluster.{ TestFuncConstructionBundle, TestFuncFlagBundle, TestFunction }
+  org.bizzle.tester.cluster.{ TestFuncConstructionBundle, TestFuncFlagBundle, TestFunction }
 
 import
   pathingmap.PathingMapString

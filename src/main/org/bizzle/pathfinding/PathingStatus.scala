@@ -1,7 +1,7 @@
-package pathfinding
+package org.bizzle.pathfinding
 
 import
-  tester.cluster.ExecutionStatus
+  org.bizzle.tester.cluster.ExecutionStatus
 
 /**
  * Created by IntelliJ IDEA.

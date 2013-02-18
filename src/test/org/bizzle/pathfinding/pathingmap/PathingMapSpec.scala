@@ -1,10 +1,10 @@
-package pathfinding.pathingmap
+package org.bizzle.pathfinding.pathingmap
 
 import
   org.scalatest.{ FlatSpec, GivenWhenThen }
 
 import
-  pathfinding.coordinate.Coordinate
+  org.bizzle.pathfinding.coordinate.Coordinate
 
 import
   Terrain._,

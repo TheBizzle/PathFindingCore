@@ -1,10 +1,10 @@
-package pathfinding
+package org.bizzle.pathfinding
 
 import
-  pathfinding.pathingmap.PathingMapSpec
+  org.bizzle.pathfinding.pathingmap.PathingMapSpec
 
 import
-  tester.suite.SuiteReporter
+  org.bizzle.tester.suite.SuiteReporter
 
 /**
  * Created by IntelliJ IDEA.
