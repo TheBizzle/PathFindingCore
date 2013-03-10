@@ -82,7 +82,6 @@ object Coordinate {
   def apply(_x: Int, _y: Int, _z: Int) = new Coordinate3D { override val (x, y, z) = (_x, _y, _z) }
 }
 
-//@ This can work really nicely with dynamic mixins; can do the same kind of thing with mixing in `PriorityCoordinate`, as well
 sealed trait BadCoordinate {
   self: Coordinate =>
   override def isValid                                       = false
