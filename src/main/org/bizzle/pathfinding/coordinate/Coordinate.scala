@@ -73,13 +73,13 @@ trait Coordinate3D extends Coordinate with ThreeD {
 }
 
 object BadCoordinate2D extends Coordinate2D with BadCoordinate {
-  override val (x, y) = (-1, -1)
+  override lazy val (x, y) = (-1, -1)
 }
 
 object Coordinate {
-  def apply(_x: Int)                   = new Coordinate1D { override val  x        =  _x }
-  def apply(_x: Int, _y: Int)          = new Coordinate2D { override val (x, y)    = (_x, _y) }
-  def apply(_x: Int, _y: Int, _z: Int) = new Coordinate3D { override val (x, y, z) = (_x, _y, _z) }
+  def apply(_x: Int)                   = new Coordinate1D { override lazy val  x        =  _x }
+  def apply(_x: Int, _y: Int)          = new Coordinate2D { override lazy val (x, y)    = (_x, _y) }
+  def apply(_x: Int, _y: Int, _z: Int) = new Coordinate3D { override lazy val (x, y, z) = (_x, _y, _z) }
 }
 
 sealed trait BadCoordinate {

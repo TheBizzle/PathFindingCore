@@ -26,8 +26,8 @@ object PriorityCoordinate {
   protected type PCor2 = Coordinate2D with PriorityCoordinate with Object { val x: Int; val y: Int; val priority: Int }
   def apply(coord: Cor2, priority: Int)       : PCor2 = apply(coord.x, coord.y, priority)
   def apply(_x: Int, _y: Int, _priority: Int) : PCor2 = new Coordinate2D with PriorityCoordinate {
-    override val (x, y, priority) = (_x, _y, _priority)
-    override def copy : PCor2     = apply(x, y, priority)
+    override lazy val (x, y, priority) = (_x, _y, _priority)
+    override def      copy : PCor2     = apply(x, y, priority)
   }
 }
 
