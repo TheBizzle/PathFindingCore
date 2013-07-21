@@ -12,7 +12,7 @@ import
  */
 
 abstract class TestScript extends App {
-  def run(criteria: Seq[TestCriteria], pf: PathFinder[_ <: StepData]) {
+  def run(criteria: Seq[TestCriteria], pf: PathFinder[_ <: StepData]) : Unit = {
     Tester(criteria, pf.asInstanceOf[PathFinder[StepData]], PathingTestCluster.getTestsToRun _, PathingTestCluster.size)
   }
 }

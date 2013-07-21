@@ -42,12 +42,12 @@ class PathingMap private (cols: Int, rows: Int, inArr: Array[Array[Terrain]]) {
     PathingMap.Directions filter (x => getTerrain(PathingMap.findNeighborCoord(loc, x)).isPassable)
   }
 
-  def step(start: Coordinate2D, end: Coordinate2D) {
+  def step(start: Coordinate2D, end: Coordinate2D) : Unit = {
     pathingMap(start.x)(start.y) = Query
     pathingMap(end.x)  (end.y)   = Self
   }
 
-  def markAsGoal(coordinate: Coordinate2D) {
+  def markAsGoal(coordinate: Coordinate2D) : Unit = {
     pathingMap(coordinate.x)(coordinate.y) = Goal
   }
 
