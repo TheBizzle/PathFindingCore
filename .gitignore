@@ -1,7 +1,6 @@
 /.idea
-/project/target
 /out
-/target
+target/
 *.DS_Store
 *.iml
 *.swp
