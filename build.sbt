@@ -1,16 +1,22 @@
-name := "PathFinding"
+name := "PathFindingCore"
+
+organization := "org.bizzle"
 
 version := "1.0"
 
 scalaVersion := "2.10.1"
 
-artifactName := { (_, _, _) => "PathFindingCore.jar" }
+licenses += ("BSD", url("http://choosealicense.com/licenses/bsd-3-clause/"))
 
 scalaSource in Compile <<= baseDirectory(_ / "src" / "main")
 
 scalaSource in Test <<= baseDirectory(_ / "src" / "test")
 
 seq(bintraySettings: _*)
+
+bintray.Keys.repository in bintray.Keys.bintray := "PathFindingCore"
+
+bintray.Keys.bintrayOrganization in bintray.Keys.bintray := Some("thebizzle")
 
 resolvers ++= Seq(
   "Sonatype OSS Releases" at "http://oss.sonatype.org/content/repositories/releases/",
